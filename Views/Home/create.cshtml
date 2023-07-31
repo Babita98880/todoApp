@@ -3,16 +3,18 @@
 @model TodoItem
 
 <h2>Add New Task</h2>
+<a  asp-controller="Home" asp-action="Index" class="back">Back to Home</a>
 
 @using (Html.BeginForm())
 {
-    <div>
-        @Html.LabelFor(model => model.Title)
+       <div class="inputDiv">
+       @Html.LabelFor(model => model.Title):
         @Html.EditorFor(model => model.Title)
     </div>
     <div>
-        @Html.LabelFor(model => model.Description)
+        @Html.LabelFor(model => model.Description):
         @Html.EditorFor(model => model.Description)
     </div>
-    <input type="submit" value="Create" />
+    <input type="submit" value="ADD" class="btn submit" />
+     @* <a asp-action="Index"  class="btn backBtn">Go To Back</a> *@
 }

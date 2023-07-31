@@ -37,4 +37,42 @@ a.navbar-brand {
 a.btn.backBtn {
   background: #e9ecef;
   font-weight: 500;
+ 
+}
+input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+form {
+  border: 1px solid lightgrey;
+  padding: 48px 15px;
+}
+.inputDiv{
+  text-align: left;
+}
+.content {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-top: 10px;
+}
+input.btn.submit {
+  background: #04bfdd;
+  color: white;
+  width: 22%;
+  margin: 0;
+}
+a.back {
+  position: absolute;
+  right: 9px;
+  top: 69px;
+  color: #04bfdd !important;
+  font-weight: 500;
+}
+td a {
+  color: black;
+  text-decoration: none;
+  border: 1px solid;
+  padding: 2px 4px 2px;
+  background: #e2e4e5;
+  border-radius: 3px;
 }
