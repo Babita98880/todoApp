@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "ToDo List";
+}
+
+@* <div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+@model List<TodoItem>
+
+@* <h2>ToDo List</h2> *@
+
+
+
+<table class="table">    
+    <tr>    
+        <th>    
+           ID
+        </th>    
+        <th>    
+            Title
+        </th>    
+        <th>    
+          Description
+        </th>    
+        <th>
+            Action
+        </th>    
+    </tr>    
+    
+@foreach (var item in Model) {    
+    <tr>    
+        <td>    
+            @Html.DisplayFor(modelItem => item.ID)    
+        </td>    
+        <td>    
+            @Html.DisplayFor(modelItem => item.Title)    
+        </td>    
+        <td>   
+                @Html.DisplayFor(modelItem => item.Description)  
+        </td>     
+        <td>
+           
+             @if (!item.IsDone)
+            {
+                @Html.ActionLink("Mark as Done", "MarkAsDone", new { id = item.ID })
+            }
+        </td>
+        @* <td>
+               @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+        </td> *@
+    </tr>    
+}    
+    
+</table>  
+  <a asp-action="Create"  class="btn settingBtn">Add New Task</a>
+ <a asp-action="Home"  class="btn backBtn">Go To Back</a>
+
+
+
