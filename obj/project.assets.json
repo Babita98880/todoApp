@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/babitarawat/Desktop/web/todoApp/todoApp.csproj",
+      "projectUniqueName": "/Users/babitarawat/Desktop/web/untitled folder/todoApp/todoApp.csproj",
       "projectName": "todoApp",
-      "projectPath": "/Users/babitarawat/Desktop/web/todoApp/todoApp.csproj",
+      "projectPath": "/Users/babitarawat/Desktop/web/untitled folder/todoApp/todoApp.csproj",
       "packagesPath": "/Users/babitarawat/.nuget/packages/",
-      "outputPath": "/Users/babitarawat/Desktop/web/todoApp/obj/",
+      "outputPath": "/Users/babitarawat/Desktop/web/untitled folder/todoApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/babitarawat/.nuget/NuGet/NuGet.Config"

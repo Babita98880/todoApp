@@ -23,7 +23,7 @@ body {
 a.btn.settingBtn {
   background: #04bfdd;
   border: 1px solid #04bfdd;
-  color: white;
+  color: white !important;
   font-weight: 500;
   padding: 7px;
   border-radius: 6px;
@@ -75,4 +75,18 @@ td a {
   padding: 2px 4px 2px;
   background: #e2e4e5;
   border-radius: 3px;
+}
+a{
+   color: #04bfdd !important;
+}
+span.done {
+  text-decoration: none;
+  border: 1px solid #226a22;
+  padding: 2px 4px 2px;
+  background: #e2e4e5;
+  border-radius: 3px;
+  color: #226a22;
+}
+h5.addHeading {
+  margin-top: 50px;
 }
