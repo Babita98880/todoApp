@@ -16,10 +16,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/babitarawat/Desktop/web/untitled folder/todoApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/babitarawat/Desktop/web/untitled folder/todoApp/Views/Home/create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/babitarawat/Desktop/web/untitled folder/todoApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
